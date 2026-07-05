@@ -7,7 +7,7 @@ import { NotFound } from './pages/NotFound'
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/llmops-learning-path-web">
       <div className="flex min-h-screen flex-col bg-background">
         <Header />
         <main className="flex-1">
