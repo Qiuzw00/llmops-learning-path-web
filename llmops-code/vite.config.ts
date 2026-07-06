@@ -5,4 +5,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   base: '/llmops-learning-path-web/',
   plugins: [react(), tailwindcss()],
+  build: {
+    outDir: '../',
+    emptyOutDir: false,
+  },
 })
